@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Jsx from './component/Jsx'
+import PropsComponent from './component/PropsComponent'
+import PropsClass from './component/PropsClass'
+import State from './component/State'
+import Setstate from './component/Setstate'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/* <Jsx /> */}
+       {/* <PropsComponent name="bala" food="fish"></PropsComponent>
+       <PropsComponent  name="Jeni" food="chicken"></PropsComponent>
+       <PropsComponent name="Blessy" food="mutton"></PropsComponent>
+       <PropsClass name="bala" />
+       <PropsClass name="jeni" />
+       <PropsClass name="blessy" /> */}
+       {/* <State /> */}
+       <Setstate />
     </div>
   );
 }
