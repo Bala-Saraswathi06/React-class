@@ -3,6 +3,9 @@ import PropsComponent from './component/PropsComponent'
 import PropsClass from './component/PropsClass'
 import State from './component/State'
 import Setstate from './component/Setstate'
+import EventHandling from './component/EventHandling'
+import FormHandling from './component/FormHandling'
+import './AppStyling.css'
 
 function App() {
   return (
@@ -15,7 +18,9 @@ function App() {
        <PropsClass name="jeni" />
        <PropsClass name="blessy" /> */}
        {/* <State /> */}
-       <Setstate />
+       {/* <Setstate /> */}
+       {/* <EventHandling /> */}
+       <FormHandling />
     </div>
   );
 }
